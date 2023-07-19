@@ -1,30 +1,38 @@
 # Kalbe Data Science Virtual Internship
 
-Welcome to the repository for the Kalbe Data Science Virtual Internship. This repository contains various files and projects related to the internship program.
+Welcome to the Kalbe Data Science Virtual Internship repository! This repository showcases the completed tasks for the internship, demonstrating the skills and expertise acquired throughout the program.
 
-## Project Files
+## Exploratory Data Analysis (EDA)
 
-The repository consists of the following three main files:
+During the internship, I successfully performed an in-depth Exploratory Data Analysis (EDA). Here are some of the powerful questions we answered through our analysis:
 
-1. EDA (Exploratory Data Analysis)
-2. Customer Segmentation
-3. Forecasting Model
+1. **EDA Question 1: Marital Status Impact** - Uncovered the average age of customers based on their marital status, providing valuable insights into the relationship between age and marital status.
+2. **EDA Question 2: Gender Analysis** - Explored the average age of customers based on their gender, enabling us to understand potential age-related patterns among different genders.
+3. **EDA Question 3: Store Performance** - Identified the store with the highest total quantity, revealing the most successful store in terms of product sales.
+4. **EDA Question 4: Best-Selling Product** - Determined the best-selling product with the highest total amount, shedding light on the most popular item among customers.
 
-Each file represents a distinct aspect of the internship project and contributes to the overall objective of gaining valuable insights from the provided data.
+## Predictive Modeling and Clustering
 
-## File Descriptions
+Our internship journey also involved predictive modeling using regression and clustering techniques. Here are the highlights of our achievements:
 
-1. **EDA (Exploratory Data Analysis):**
-   This file contains the code and analysis for performing exploratory data analysis on the given dataset. It involves examining the dataset's structure, identifying patterns, and extracting meaningful insights.
+### Machine Learning Regression (Time Series)
 
-2. **Customer Segmentation:**
-   In this file, you will find the code and methodologies employed to segment the customers based on relevant variables. Customer segmentation aids in understanding different customer groups and tailoring strategies accordingly.
+I excelled in building a robust machine learning regression model, specifically designed for time series data. Our approach included the following steps:
 
-3. **Forecasting Model:**
-   The forecasting model file includes the code and implementation of a predictive model to forecast future trends based on historical data. This model utilizes advanced algorithms to make accurate predictions and help drive informed decision-making.
+- **Data Cleansing** - Employed rigorous data cleaning techniques to ensure data accuracy and consistency.
+- **Data Merging** - Consolidated multiple datasets into a unified dataset for analysis and modeling.
+- **Regression Modeling** - Developed a powerful regression model capable of predicting the daily total quantity of products sold.
+- **Data Aggregation** - Grouped the data by date, aggregating the quantity column to create a new dataset suitable for regression analysis.
+- **ARIMA Method** - Leveraged the ARIMA time series method to forecast future sales quantities with precision.
 
-## Usage
+### Machine Learning Clustering
 
-To utilize the files in this repository, please follow the steps below:
+In addition to regression, I tackled the challenge of customer clustering using machine learning techniques. Here's an overview of our approach:
 
-1. Clone the repository to your local machine using the following command:
+- **Data Cleansing** - Ensured data cleanliness and consistency through meticulous data cleansing procedures.
+- **Data Merging** - Integrated various datasets into a unified dataset for comprehensive analysis.
+- **Clustering Model Creation** - Constructed an effective machine learning clustering model to group similar customers based on their characteristics.
+- **Data Aggregation** - Grouped the data by customerID, aggregating relevant columns such as transaction ID count, quantity sum, and total amount sum.
+- **KMeans Method** - Employed the powerful KMeans clustering method to identify distinct customer groups based on their shared characteristics.
+
+Through these challenging tasks, I demonstrated our expertise in data analysis, machine learning regression, and clustering techniques, showcasing our ability to derive meaningful insights from complex datasets.
